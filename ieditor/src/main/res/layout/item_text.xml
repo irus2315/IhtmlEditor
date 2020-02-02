@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="vm" type="kr.twothumb.ieditor.ui.HtmlEditorViewModel"/>
+    </data>
+
+    <kr.twothumb.ieditor.util.view.EditorText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:breakStrategy="balanced"
+        android:scrollHorizontally="false"
+        android:background="@null"
+        android:bufferType="spannable"
+        android:onClick="@{(v)-> vm.onTextClick(v)}" />
+</layout>

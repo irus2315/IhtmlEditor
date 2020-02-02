@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="vm" type="kr.twothumb.ieditor.ui.HtmlEditorViewModel"/>
+    </data>
+
+    <kr.twothumb.ieditor.util.view.EditorImage
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{(v)-> vm.onImageClick(v)}">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="end"
+            android:onClick="@{(v)->vm.deleteImage()}">
+
+
+            <ImageView
+                android:id="@+id/selector"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:padding="4dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:background="@drawable/background_circle_selected"/>
+        </FrameLayout>
+
+    </kr.twothumb.ieditor.util.view.EditorImage>
+</layout>

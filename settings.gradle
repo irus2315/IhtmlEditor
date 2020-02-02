@@ -1,0 +1,2 @@
+include ':app', ':logger', ':ieditor'
+rootProject.name='IhtmlEditor'
