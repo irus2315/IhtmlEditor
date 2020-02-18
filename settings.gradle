@@ -1,2 +1,2 @@
-include ':app', ':logger', ':ieditor'
+include ':app', ':ieditor'
 rootProject.name='IhtmlEditor'
