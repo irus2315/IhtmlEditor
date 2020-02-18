@@ -5,6 +5,9 @@ RecyclerView based Wysiwyg RichTextEditor
 개발중인 개인프로젝트
 ![Screenshot](./img/screenshot.jpg)
 
+## 사용영상
+[https://vimeo.com/392181661](https://vimeo.com/392181661)
+ 
 ## Feature
 * FontSize (Heading 1-3)
 * Bold
