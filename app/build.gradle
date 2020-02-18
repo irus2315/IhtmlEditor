@@ -47,5 +47,5 @@ dependencies {
     implementation 'org.koin:koin-androidx-viewmodel:2.0.1'
 
 
-    implementation 'kr.twothumb.lib:logger:1.0.7'
+    implementation 'kr.twothumb.lib:logger:1.0.8'
 }

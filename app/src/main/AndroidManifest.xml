@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="kr.twothumb.sample">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name=".SampleApplication"
         android:allowBackup="false"
@@ -22,6 +24,8 @@
         </activity>
 
         <activity android:name=".SourceActivity"/>
+
+        <activity android:name="kr.twothumb.ieditor.ui.imagepicker.ImagePicker"/>
     </application>
 
 </manifest>

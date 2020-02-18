@@ -45,5 +45,5 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:okhttp3-integration:4.8.0'
 
-    implementation 'kr.twothumb.lib:logger:1.0.7'
+    implementation 'kr.twothumb.lib:logger:1.0.8'
 }
